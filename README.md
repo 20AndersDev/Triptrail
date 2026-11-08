@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# TripTrail
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TripTrail er eit sosialt medium for reiser. Her kan du dele turane dine, planleggje nye reiser saman med andre og sjå kvar i verda du har vore.
 
-## Available Scripts
+Eg har designa og bygd appen sjølv, frå idé til fungerande løysing.
 
-In the project directory, you can run:
+<!-- Legg inn 2–3 skjermbilete her, til dømes feed, profil med verdskart og reiseplanleggar -->
+<!-- ![Feed](docs/feed.png) -->
 
-### `npm start`
+**Live demo:** _[lenkje kjem]_
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funksjonar
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Feed og innlegg.** Del turar med bilete, stad og tekst. Andre kan kommentere og nemne brukarar med @.
+- **Utforsk.** Bla i innlegg etter land, stad eller hashtag, og søk etter andre brukarar.
+- **Verdskart.** Profilen viser kva land du har besøkt.
+- **Reiseplanleggar.** Planlegg ein tur med datoar og attraksjonar, og inviter andre brukarar til å planleggje saman med deg.
+- **Stader og arrangement.** Søk opp stader via Google Places og finn arrangement via Ticketmaster.
+- **Direktemeldingar og varsel.**
+- **Personvern.** Gjer profilen privat, slik at berre godkjende følgjarar ser innlegga dine.
+- **Lyst og mørkt tema.**
 
-### `npm test`
+## Teknologi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Del | Verktøy |
+| --- | --- |
+| Frontend | React 19, React Router |
+| Backend, innlogging og database | Supabase |
+| Kart og stader | Google Maps API, Google Places API, react-simple-maps |
+| Arrangement | Ticketmaster API |
 
-### `npm run build`
+## Kom i gang
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Klon repoet og installer avhengigheiter:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/20AndersDev/Triptrail.git
+   cd Triptrail
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Lag ei `.env`-fil i rotmappa:
 
-### `npm run eject`
+   ```
+   REACT_APP_SUPABASE_URL=
+   REACT_APP_SUPABASE_ANON_KEY=
+   REACT_APP_GOOGLE_MAPS_API_KEY=
+   REACT_APP_GOOGLE_MAPS_PLACES_API_KEY=
+   REACT_APP_TICKETMASTER_API_KEY=
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Start appen:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Appen køyrer då på [http://localhost:3000](http://localhost:3000).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Om prosjektet
 
-## Learn More
+Eit eige prosjekt sidan september 2025. AI-verktøy er brukte som støtte i utviklinga.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Laga av [Anders Nes](https://github.com/20AndersDev).
