@@ -4,17 +4,20 @@ TripTrail er eit sosialt medium for reiser. Her kan du dele turane dine, planleg
 
 Eg har designa og bygd appen sjølv, frå idé til fungerande løysing.
 
-<!-- Legg inn 2–3 skjermbilete her, til dømes feed, profil med verdskart og reiseplanleggar -->
-<!-- ![Feed](docs/feed.png) -->
+![Feed](docs/feed.png)
+
+![Profil med verdskart](docs/profil.png)
+
+![Reiseplanleggar med gruppechat](docs/planlegger.png)
 
 **Live demo:** _[lenkje kjem]_
 
 ## Funksjonar
 
 - **Feed og innlegg.** Del turar med bilete, stad og tekst. Andre kan kommentere og nemne brukarar med @.
-- **Utforsk.** Bla i innlegg etter land, stad eller hashtag, og søk etter andre brukarar.
-- **Verdskart.** Profilen viser kva land du har besøkt.
-- **Reiseplanleggar.** Planlegg ein tur med datoar og attraksjonar, og inviter andre brukarar til å planleggje saman med deg.
+- **Utforsk.** Bla i innlegg etter land, stad eller hashtag, sjå populære hashtags og stader, og søk etter andre brukarar.
+- **Verdskart.** Profilen viser kva land du har besøkt, og kor stor del av verda det utgjer.
+- **Reiseplanleggar.** Planlegg ein tur med datoar, reise, overnatting og attraksjonar. Inviter andre brukarar og planlegg saman i ein eigen gruppechat.
 - **Stader og arrangement.** Søk opp stader via Google Places og finn arrangement via Ticketmaster.
 - **Direktemeldingar og varsel.**
 - **Personvern.** Gjer profilen privat, slik at berre godkjende følgjarar ser innlegga dine.
